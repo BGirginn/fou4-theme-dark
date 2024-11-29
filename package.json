@@ -1,0 +1,21 @@
+{
+  "name": "fou4-theme-dark",
+  "displayName": "fou4-theme",
+  "description": "fou4 theme dark",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "fou4",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fou4-color-theme.json"
+      }
+    ]
+  }
+}
